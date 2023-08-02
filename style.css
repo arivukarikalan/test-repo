@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  nav {
+    background-color: #333;
+    height: 50px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
+  section {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+/* Other CSS styles... */
+
+nav {
+    background-color: #333;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  /* Add a new class for the active link in the navbar */
+  nav ul li.active a {
+    background-color: #555;
+    color: #fff;
+  }
+  
+  /* Other CSS styles... */
+    
